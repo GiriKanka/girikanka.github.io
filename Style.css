@@ -1,0 +1,104 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #2b8ec0;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+p {
+    color: #666;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+header {
+    background-color: #333;
+    color: #348047;
+    padding: 20px 0;
+}
+
+header h1 {
+    display: center;
+}
+
+nav ul {
+    list-style: none;
+    display: inline;
+    float: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+
+#heading {
+    background: url('') no-repeat center center/cover;
+    color: #fff;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#heading h2 {
+    font-size: 36px;
+    margin: 0;
+}
+
+/* Cars List */
+#cars-list {
+    padding: 20px 0;
+}
+
+#cars-list .car {
+    background-color: #2b7546;
+    border: 1px solid #c02424;
+    padding: 20px;
+    margin: 10px 0;
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+    text-align: center;
+}
+
+#cars-list .car img {
+    width: auto; 
+    height: auto; 
+}
+
+#cars-list .car h3 {
+    margin: 10px 0;
+}
+
+#cars-list .car p {
+    margin: 5px 0;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer p {
+    margin: 0;
+}
